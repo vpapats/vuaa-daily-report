@@ -4,10 +4,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta, date
 import pytz
-import pandas_market_calendars as mcal
+##import pandas_market_calendars as mcal
 
 ATHENS = pytz.timezone("Europe/Athens")
-XETRA_CAL = mcal.get_calendar("XETR")
+#XETRA_CAL = mcal.get_calendar("XETR")
 
 PRED_CSV = "predictions.csv"
 ONE_PAGER_PNG = "one_pager.png"
@@ -17,8 +17,9 @@ def athens_today() -> date:
     return datetime.now(ATHENS).date()
 
 def is_xetra_trading_day(d: date) -> bool:
-    valid = XETRA_CAL.valid_days(start_date=d.isoformat(), end_date=d.isoformat())
-    return len(valid) > 0
+#    valid = XETRA_CAL.valid_days(start_date=d.isoformat(), end_date=d.isoformat())
+#    return len(valid) > 0
+    return d.weekday() < 5
 
 def fetch_stooq_history(symbol: str = "vuaa.de") -> pd.DataFrame:
     base = f"https://stooq.com/q/d/l/?s={symbol}&i=d"
