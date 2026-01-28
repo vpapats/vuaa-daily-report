@@ -1,15 +1,15 @@
 STATE
-run_at_athens: 2026-01-27 09:48:10
-today_athens: 2026-01-27
+run_at_athens: 2026-01-28 09:46:52
+today_athens: 2026-01-28
 is_xetra_trading_day: YES
-data_last_close: 2026-01-26
-data_prev_close: 2026-01-23
-log_rows: 16
-evaluated_rows: 15
+data_last_close: 2026-01-27
+data_prev_close: 2026-01-26
+log_rows: 17
+evaluated_rows: 16
 notes: report_url=https://raw.githubusercontent.com/vpapats/vuaa-daily-report/main/report.txt one_pager_url=https://raw.githubusercontent.com/vpapats/vuaa-daily-report/main/one_pager.png
 END_STATE
-Latest close date in data: 2026-01-26 (prev: 2026-01-23)
-Today (2026-01-27) forecast: +0.13%
-MTD score (as of 2026-01-23): 10 hits / 5 misses | MAE: 0.61 pp
+Latest close date in data: 2026-01-27 (prev: 2026-01-26)
+Today (2026-01-28) forecast: +0.10%
+MTD score (as of 2026-01-26): 10 hits / 6 misses | MAE: 0.61 pp
 One-pager saved to: one_pager.png
 Log saved to: predictions.csv
