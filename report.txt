@@ -1,6 +1,6 @@
 STATE
-run_at_athens: 2026-09-05 14:20:35
-today_athens: 2026-09-05
+run_at_athens: 2026-09-06 14:42:34
+today_athens: 2026-09-06
 is_xetra_trading_day: NO
 data_last_close: n/a
 data_prev_close: n/a
